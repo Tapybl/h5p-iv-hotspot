@@ -59,6 +59,7 @@ H5P.IVHotspot = (function ($, EventDispatcher) {
           href: '#',
           'aria-labelledby': 'ivhotspot-' + self.instanceIndex + '-description'
         }).on('click', function (event) {
+          self.trigger('click', self);
           self.trigger('goto', parameters.destination.time);
           event.preventDefault();
         }).keypress(function (event) {
