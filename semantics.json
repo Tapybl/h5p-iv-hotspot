@@ -79,6 +79,12 @@
             "label": "URL",
             "importance": "high",
             "optional": true
+          },
+          {
+            "name": "openHotspotLinkInNewTab",
+            "label": "Open the link in new window/tab",
+            "importance": "high",
+            "type": "boolean"
           }
         ]
       }

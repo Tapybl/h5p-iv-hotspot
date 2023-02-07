@@ -43,9 +43,9 @@ H5P.IVHotspot = (function ($, EventDispatcher) {
       if (parameters.destination.type === 'url') {
         var link = new H5P.Link({
           title: '',
-          linkWidget: parameters.destination.url
+          linkWidget: parameters.destination.url,
+          openInTheNewTab: parameters.destination.url.openHotspotLinkInNewTab
         });
-
         link.attach($container);
         $a = $container.find('a');
         $a.keypress(function (event) {
