@@ -36,7 +36,7 @@
         "widget": "timecode",
         "label": "Go To",
         "importance": "high",
-        "description": "The target time the user will be taken to upon pressing the hotspot. Enter timecode in the format M:SS.",
+        "description": "The target time the user will be taken to upon pressing the navigation tap. Enter timecode in the format M:SS.",
         "optional": true
       },
       {
@@ -121,7 +121,7 @@
       {
         "name": "backgroundColor",
         "type": "text",
-        "label": "Background color for hotspot",
+        "label": "Background color for navigation tap",
         "widget": "colorSelector",
         "importance": "low",
         "default": "rgba(255, 255, 255, 0)",
@@ -220,7 +220,7 @@
         "type": "boolean",
         "label": "Add blinking effect",
         "importance": "low",
-        "description": "Note: Blinking effect is always enabled in the editor so you are able to find transparent hotspots"
+        "description": "Note: Blinking effect is always enabled in the editor so you are able to find transparent navigation taps"
       }
     ]
   },
@@ -236,7 +236,7 @@
         "type": "text",
         "importance": "low",
         "label": "Alternative Text",
-        "description": "Describe the subject the hotspot covers. Used for readspeakers",
+        "description": "Describe the subject the navigation taps covers. Used for readspeakers",
         "placeholder": "An apple on a table",
         "optional": false
       },
@@ -244,7 +244,7 @@
         "name": "label",
         "type": "text",
         "importance": "low",
-        "label": "Hotspot Label",
+        "label": "Navigation tap Label",
         "optional": true
       },
       {
